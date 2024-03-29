@@ -64,4 +64,4 @@ const app = Vue.createApp({
 app.mount('#app');
 
 //!CONSOLE LOG PER GUIDA
-console.log();
+console.log('Slides:', slides);
