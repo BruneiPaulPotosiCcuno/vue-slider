@@ -26,16 +26,16 @@
                 </template>
                 <!-- Navigazione movimento -->
                 <div class="thumbs">
+                    <div class="prev" @click="prevSlide"></div>
+                    <div class="next" @click="nextSlide"></div>
 
+                    <!-- Miniature delle slide -->
+                    <!-- Ciclo per mostrare le miniature -->
+                    <div class="thumb" v-for="(slide, index) in slides" @click="goToSlide(index)">
+                        <!-- Immagine della miniatura -->
+                        <img :src="slide.image" :alt="slide.title" :class="{ active: index === currentSlide }">
+                    </div>
                 </div>
-
-
-
-
-
-
-
-
             </div>
         </div>
 
