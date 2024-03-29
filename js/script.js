@@ -32,18 +32,17 @@ const app = Vue.createApp({
             current: 0
         };
     },
+    //Aggiungo methods
     methods: {
-        
+        //Function per precedere le slide
+            //"if"
+            //"else"
+        //function per seguir la slide seguente
+            //"if"
+            //"else"
     },
 });
 
-//Aggiungo methods
-    //Function per precedere le slide
-        //"if"
-        //"else"
-    //function per seguir la slide seguente
-        //"if"
-        //"else"
         
 
 //!CONSOLE LOG PER GUIDA
