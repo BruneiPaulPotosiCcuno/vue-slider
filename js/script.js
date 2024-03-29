@@ -23,6 +23,13 @@ const slides = [
 ];
 
 //Creo la data per vue
+const app = Vue.createApp({
+    data() {
+        return {
+            
+        }
+    },
+});
     //data delle slide
     //i per slide
 //Aggiungo methods
