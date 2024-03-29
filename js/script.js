@@ -45,13 +45,19 @@ const app = Vue.createApp({
             }  
         },
 
-        
-            
-            
         //function per seguir la slide seguente
+        nextSlide() {
             //"if"
+            if (this.currentSlide === this.slides.lenght - 1) {
+                this.currentSlide = 0;
             //"else"
-    },
+            } else {
+                this.currentSlide += 1;
+            }
+            
+        },
+
+    }
 });
 
 //Utilizzo id App
