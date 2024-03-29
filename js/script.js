@@ -29,12 +29,19 @@ const app = Vue.createApp({
         //data delle slide
             slides: slides,
         //i per slide
-            current: 0
+            currentSlide: 0
         };
     },
     //Aggiungo methods
     methods: {
         //Function per precedere le slide
+        prevSlide() {
+            if (this.currentSlide === 0) {
+                this.currentSlide = this.slides.lenght - 1;
+            } else {
+                this.currentSlide -= 1;
+            }  
+        },
             //"if"
             //"else"
         //function per seguir la slide seguente
@@ -43,7 +50,8 @@ const app = Vue.createApp({
     },
 });
 
-        
+//Utilizzo id App
+app.mount('#app');
 
 //!CONSOLE LOG PER GUIDA
 console.log();
