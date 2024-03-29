@@ -26,12 +26,17 @@ const slides = [
 const app = Vue.createApp({
     data() {
         return {
-            
-        }
+        //data delle slide
+            slides: slides,
+        //i per slide
+            current: 0
+        };
+    },
+    methods: {
+        
     },
 });
-    //data delle slide
-    //i per slide
+
 //Aggiungo methods
     //Function per precedere le slide
         //"if"
