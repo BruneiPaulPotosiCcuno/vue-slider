@@ -36,14 +36,18 @@ const app = Vue.createApp({
     methods: {
         //Function per precedere le slide
         prevSlide() {
+            //"if"
             if (this.currentSlide === 0) {
                 this.currentSlide = this.slides.lenght - 1;
+            //"else"
             } else {
                 this.currentSlide -= 1;
             }  
         },
-            //"if"
-            //"else"
+
+        
+            
+            
         //function per seguir la slide seguente
             //"if"
             //"else"
