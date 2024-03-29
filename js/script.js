@@ -22,3 +22,17 @@ const slides = [
     }
 ];
 
+//Creo la data per vue
+    //data delle slide
+    //i per slide
+//Aggiungo methods
+    //Function per precedere le slide
+        //"if"
+        //"else"
+    //function per seguir la slide seguente
+        //"if"
+        //"else"
+        
+
+//!CONSOLE LOG PER GUIDA
+console.log();
